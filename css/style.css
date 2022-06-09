@@ -1,0 +1,60 @@
+* {
+  overflow-x: hidden;
+}
+
+/* Now the super main part */
+/* this gets the whole scrollbar including the scrollbar area */
+::-webkit-scrollbar {
+  background: transparent;
+  width: 5px;
+}
+
+/* webkit scrollbar thumb is the part of the scrollbar which we hold to scroll  */
+::-webkit-scrollbar-thumb {
+  background: #afafaf;
+  /* we got the background now lets make it round */
+  border-radius: 10px;
+}
+
+body {
+  font-family: "Kanit", sans-serif;
+  font-size: 12.5pt;
+  background-color: #612378;
+  color: #fff;
+}
+
+.text-light {
+  color: #fff !important;
+}
+
+.mybtn {
+  width: 160px;
+  height: 50px;
+  background-color: #fff;
+  color: #612378;
+  border: 0;
+}
+
+.space {
+  margin-top: 100px;
+}
+
+.img {
+  border: 5px solid #fff;
+  border-radius: 5px;
+  width: 300px;
+  height: 300px;
+}
+
+.review {
+  border: 5px solid #fff;
+  border-radius: 50%;
+  width: 300px;
+  height: 300px;
+}
+
+.map {
+  border: 5px solid #fff;
+  border-radius: 5px;
+  width: 100%;
+}

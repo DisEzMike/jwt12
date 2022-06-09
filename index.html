@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kanit&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <title>แม่หมอดูดวง</title>
+
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-sm navbar-light" style="border: 1px solid #fff;">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#"></a>
+            <button class="navbar-toggler text-light" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon text-light"></span>
+            </button>
+            <div class="collapse navbar-collapse " id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto" style="align-items: center; justify-content: center">
+                    <li class="nav-item">
+                        <a class="nav-link text-light" aria-current="page" href="#about">เกี่ยวกับหมอหมึก</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-light" aria-current="page" href="#content">บทความ</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-light" aria-current="page" href="#book">จองคิว</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <div id="content" class="container" style="padding-bottom: 100px;">
+        <div class="row">
+            <div class="col-12 text-center">
+                <p class="mt-5" style="font-size: 54pt;">หมอหมึก</p>
+                <p style="font-size: 16pt;">ผู้มีประสบการณ์พยากรณ์กว่า 10 ปี พร้อมคำพยากรณ์ที่แม่นยำ</p>
+                <p>
+                    <button class="mt-3 mybtn" id="book">จองคิว</button>
+                </p>
+            </div>
+            <!-- Show in moblie ONLY -->
+            <div class="col-12 space d-block d-md-none" align="center">
+                <img class="img" src="img/doctor.png">
+            </div>
+
+            <div id="about" class="col-12 col-md-6 space">
+                <p style="font-size: 32pt;">ประวัติหมอหมึก</p>
+                <p style="font-size: 16pt;">หมอหมึกเป็นนักพยากรณ์ที่ชำนาญด้านการทำนายดวงด้วยลูกแก้วพยากรณ์ ไพ่ทาโร่
+                    และการดูลายมือ</p>
+                <p style="font-size: 16pt;">ด้วยความสามารถที่หลากหลาย
+                    ทำให้หมอหมึกสามารถเลือกวิธีการทำนายที่เหมาะสมกับแต่ละบุคคลเพื่อให้ได้ผลลัพธ์แม่นยำที่สุด</p>
+            </div>
+
+            <div class="col-6 space d-none d-md-block" align="center">
+                <img class="img" src="img/doctor.png">
+            </div>
+
+            <div class="col-12 text-center space">
+                <p class="my-5" style="font-size: 32pt;">รีวิวจากลูกค้า</p>
+                <div class="row">
+                    <div class="col-12 col-md-4 text-center">
+                        <img class="review" src="img/Matthew.png"><br>
+                        <p class="mt-2" style="font-size: 24pt;">แมทธิว นักธุรกิจ</p>
+                        <p style="font-size: 16pt;">
+                            หมอหมึกช่วยผมเรื่องฤกษ์ยามในการเจรจาธุรกิจได้มากเลยตอนนี้ขายดีเทน้ำเทท่าเลยครับ</p>
+                    </div>
+                    <div class="col-12 col-md-4 text-center">
+                        <img class="review" src="img/Jack.png"><br>
+                        <p class="mt-2" style="font-size: 24pt;">แจ็ค นักแสดง</p>
+                        <p style="font-size: 16pt;">
+                            ต้องขอบคุณหมอเบิกในการช่วยให้ความสัมพันธ์ราบรื่นด้วยนะคะทำนายอะไรไว้ก็แม่นทุกอย่างเลยค่ะ</p>
+                    </div>
+                    <div class="col-12 col-md-4 text-center">
+                        <img class="review" src="img/Namsai.png"><br>
+                        <p class="mt-2" style="font-size: 24pt;">น้ำใส นักศึกษา</p>
+                        <p style="font-size: 16pt;">
+                            ที่หมอหมึกบอกมานะคะเกิดเกือบหมดเลยค่ะถ้าไม่ได้หมอบอกเชื่อไว้
+                            ชีวิตผมแย่เลยค่ะที่หน้าที่ป้องกันเรื่องร้าย ๆ ทันเวลา
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-6 space d-none d-md-block" align="center">
+                <img class="map" src="img/map.png">
+            </div>
+            <div class="col-12 col-md-6 px-5 space">
+                    <p style="font-size: 32pt;">ทำนายชะตากับหมอหมึก</p>
+                    <p style="font-size: 16pt;">สามารถจองคิวได้ในเว็บหรือ</p>
+                    <p style="font-size: 16pt;">อีเมล์: octopus_fortune@teller.com</p>
+                    <p style="font-size: 16pt;">โทรศัพท์: 099 XXXX XXX</p>
+                    <p style="font-size: 16pt;">และมาที่สำนักที่ </p>
+                    <p style="font-size: 16pt;">ชั้น 12 อาคาร JWC ถนนโปรแกรมมิ่ง แขวงเว็บ เขตอินเคอร์เน็ต กรุงเทพ 99999</p>
+                    <p style="font-size: 16pt;">ตามวันเวลาที่นัดไว้</p>
+                    <p style="font-size: 16pt;">จำกัดที่ 10 คิวต่อหนึ่งวัน เปิดทำการ
+                        10.00 - 18.30 น. พัก 12.00 - 13.00
+                        เปิดทุกวันอังคารถึงเสาร์ หยุดวันจันทร์อาทิตย์</p>
+            </div>
+            <!-- Show in moblie ONLY -->
+            <div class="col-12 space d-block d-md-none" align="center">
+                <img class="map" src="img/map.png">
+            </div>
+        </div>
+    </div>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+        crossorigin="anonymous"></script>
+</body>
+<footer class="text-center mb-2">
+    Dev by <a href="https://www.instagram.com/_mikemetang" target="_blank">Disezmike</a>
+</footer>
+
+</html>
